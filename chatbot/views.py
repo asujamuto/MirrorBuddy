@@ -19,7 +19,7 @@ class MirrorBuddy(BuddyBrain):
 #funkcja 
 def chatbot(message):
     message = message.lower()
-
+    tag = ""
     if message=='':
         mirror_buddy = MirrorBuddy()
         while True:
